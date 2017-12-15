@@ -41,8 +41,8 @@ import waveLibs as wl
 limit = sys.float_info.max # equivalent to std::numeric_limits::max() in C++
 
 def main(argv):
-    print "======================================="
-    print "LAT started:",time.strftime('%X %x %Z')
+    print ("=======================================")
+    print ("LAT started:",time.strftime('%X %x %Z'))
     startT = time.clock()
     # gROOT.ProcessLine("gErrorIgnoreLevel = 3001;") # suppress ROOT error messages
     global batMode
